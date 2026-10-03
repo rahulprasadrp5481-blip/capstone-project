@@ -50,11 +50,14 @@ export default function Footer() {
     <footer className="bg-gray-900 text-gray-300">
       <div className="max-w-6xl mx-auto px-4 py-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
         <div>
-          <h3 className="text-white font-bold text-lg mb-3">Wanderly</h3>
-          <p className="text-sm">
-            Discover travel stories and find the perfect hotel in any country.
-            Save your favourites and plan your next trip with ease.
-          </p>
+          <h3 className="text-white font-bold text-lg mb-3">TrailNest</h3>
+          
+<p className="text-sm mt-3">
+  Follow the trail. Find your nest. Discover travel stories and find the perfect
+  hotel in any country, then save your favourites for your next trip.
+</p>
+          
+
         </div>
 
         <div>
@@ -71,7 +74,7 @@ export default function Footer() {
           <h3 className="text-white font-bold text-lg mb-3">Contact</h3>
           <ul className="space-y-2 text-sm">
             <li className="flex items-center gap-2"><FaPhoneAlt /> +91 98765 43210</li>
-            <li className="flex items-center gap-2"><FaEnvelope /> hello@wanderly.com</li>
+            <li className="flex items-center gap-2"><FaEnvelope /> hello@trailnest.com</li>
             <li className="flex items-center gap-2"><FaMapMarkerAlt /> Ranchi, Jharkhand, India</li>
           </ul>
         </div>
@@ -100,7 +103,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-gray-700 text-sm py-4 px-4 flex flex-col sm:flex-row items-center justify-center gap-2 sm:gap-6">
-        <span>© {new Date().getFullYear()} Wanderly. All rights reserved.</span>
+        <span>© {new Date().getFullYear()} TrailNest. All rights reserved.</span>
         <div className="flex gap-4">
           <button onClick={() => setModal("privacy")} className="hover:text-white underline">
             Privacy Policy

@@ -33,9 +33,9 @@ function Section({ title, children }) {
 export default function About() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-10">
-      <h1 className="text-4xl font-bold">About Wanderly</h1>
+      <h1 className="text-4xl font-bold">About TrailNest</h1>
       <p className="mt-4 text-lg text-gray-700 max-w-3xl">
-        Wanderly brings travel stories and hotel discovery together in one simple place.
+        TrailNest brings travel stories and hotel discovery together in one simple place.
         Read inspiring blogs, search hotels country by country, and keep a personal
         wishlist for your next trip.
       </p>
